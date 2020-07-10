@@ -5,7 +5,7 @@ from pylab import *
 ### a)
 #integrates sen^2(x) in the interval [a, b]
 def definite_integral(a, b):
-    return ((a/2) - (sin(2*a)/4))-(b/2) - (sin(2*b)/4)
+    return ((b/2) - (sin(2*b)/4))-(a/2) - (sin(2*a)/4)
 
 ### b)
 definite_integral(0, 2*pi)

@@ -17,7 +17,7 @@ def integral(f,a,b,n=10001):
 	return h*sum(f(x))
 
 def integral_sen2(a, b):
-    return ((a/2) - (sin(2*a)/4))-(b/2) - (sin(2*b)/4)
+    return ((b/2) - (sin(2*b)/4))-(a/2) - (sin(2*a)/4)
 
 
 x = linspace(-5, 5, 1000)
